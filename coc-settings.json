@@ -1,0 +1,11 @@
+{
+  "notification.statusLineProgress": false,
+  "coc.preferences.formatOnSaveFiletypes": ["rust", "go"],
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "filetypes": ["go"]
+    }
+  }
+}

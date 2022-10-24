@@ -1,0 +1,26 @@
+local status_ok, hop = pcall(require, "hop")
+if not status_ok then
+	return
+end
+
+hop.setup {
+  keys = 'etovqdygfblhcjkisuran',
+}
+
+local directions = require('hop.hint').HintDirection
+
+vim.keymap.set('', 'f', function()
+  hop.hint_char1({ direction = directions.AFTER_CURSOR })
+end, {remap=true})
+
+vim.keymap.set('', 'F', function()
+  hop.hint_char1({ direction = directions.BEFORE_CURSOR })
+end, {remap=true})
+
+vim.keymap.set('', 't', function()
+  hop.hint_char1({ current_line_only = true })
+end, {remap=true})
+
+vim.keymap.set('', 'T', function()
+  hop.hint_lines_skip_whitespace()
+end, {remap=true})
