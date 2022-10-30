@@ -130,7 +130,6 @@ return packer.startup(function(use)
 
   -- https://github.com/kyazdani42/nvim-tree.lua
   use { "kyazdani42/nvim-web-devicons" }
-  use { "kyazdani42/nvim-tree.lua", commit = "bdb6d4a25410da35bbf7ce0dbdaa8d60432bc243" }
 
   -- Do easy block comment
   -- https://github.com/numToStr/Comment.nvim

@@ -8,7 +8,6 @@ local modules = {
   "user.indentline",
   "user.keymappings",
   "user.comment",
-  "user.nvim-tree",
   "user.bufferline",
   "user.vim-visual-multi",
   "user.toggleterm",
