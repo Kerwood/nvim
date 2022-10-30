@@ -21,6 +21,8 @@ local modules = {
   "user.mason",
   "user.surround",
   "user.diffview",
+  "user.neo-tree",
+  "user.window-picker",
 }
 
 -- Refresh module cache
