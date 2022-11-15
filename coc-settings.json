@@ -1,6 +1,6 @@
 {
   "notification.statusLineProgress": false,
-  "coc.preferences.formatOnSaveFiletypes": ["rust", "go"],
+  "coc.preferences.formatOnSaveFiletypes": ["rust", "go", "json", "yaml"],
   "languageserver": {
     "golang": {
       "command": "gopls",
