@@ -103,7 +103,7 @@ return packer.startup(function(use)
   use { "lewis6991/impatient.nvim", tag = "v0.2" }
 
   --  Colorschemes
-  use { "Mofiqul/dracula.nvim", commit = "0b4f6e009867027caddc1f28a81d8a7da6a2b277" }
+  use { "Mofiqul/dracula.nvim" }
   -- use { "folke/tokyonight.nvim", commit = "8223c970677e4d88c9b6b6d81bda23daf11062bb" }
 
   -- Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document.
@@ -160,7 +160,7 @@ return packer.startup(function(use)
 
   -- Treesitter, Better syntax highlighting.
   -- https://github.com/nvim-treesitter/nvim-treesitter
-  use { "nvim-treesitter/nvim-treesitter", commit = "8ec59aee8097c64fcf27d1dbd77ea181c50846c5" }
+  use { "nvim-treesitter/nvim-treesitter", commit = "4b900527045c49af5f43291d2cb13ae27a3bc7be" }
 
   -- Treesitter Rainbow, Making pair brackets same color.
   -- https://github.com/p00f/nvim-ts-rainbow
