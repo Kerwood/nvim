@@ -6,6 +6,7 @@
     "json",
     "yaml",
     "javascript",
-    "javascriptreact"
+    "javascriptreact",
+    "typescriptreact"
   ]
 }
